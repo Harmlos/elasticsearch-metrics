@@ -1,0 +1,19 @@
+# Read cluster
+elasticServer: 'https://127.0.0.1:9200'
+interval: 60
+
+read_es_security_enable: True
+read_username: "user"
+read_password: "password"
+
+write_es_security_enable: True
+write_username: "user"
+write_password: "password"
+
+ # Write Cluster
+elasticIndex: 'elasticsearch_metrics'
+elasticMonitoringCluster: 'https://127.0.0.1:9200'
+
+# settings
+#logfilename: 'elasticsearch_metrics.log'
+certeficate: 'ca.crt'
