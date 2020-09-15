@@ -1,5 +1,7 @@
 Reforged copy of script https://github.com/trevorndodds/elasticsearch-metrics/blob/master/Grafana/elasticsearch2elastic.py
 
+For Grafana Dashbord https://grafana.com/grafana/dashboards/878
+
 Used config file
 Write all event's to log
 
