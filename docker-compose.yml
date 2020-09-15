@@ -1,0 +1,10 @@
+---
+version: "3.1"
+services:
+  elastci-metrics:
+    image: elastic_metrics:latest
+    container_name: elastic-metrics
+    volumes:
+      - /data/elasticsearch-metrics/config_pass.yml:/data/elastic_metrics/config.yml
+      - /data/elasticsearch-metrics/log/:/data/elastic_metrics/log/:rw
+    restart: unless-stopped
